@@ -12,8 +12,23 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Anharhehe",
-  description: "My personal portfolio showcasing my projects, skills, and experience.",
+  title: "Anharhehe | Full Stack & AI Engineer",
+  description: "Final year Software Engineering student at FAST NUCES. Building AI-powered systems, full stack web apps, and ML solutions. Open to full-time roles.",
+  keywords: ["Anhar Munir", "Anharhehe", "Software Engineer", "AI Engineer", "Full Stack Developer", "FAST NUCES", "Pakistan", "Web Development", "Web Developer", "Mobile Development", "React", "Node.js", "Python", "Machine Learning", "Artificial Intelligence", "Portfolio"],
+  authors: [{ name: "Anhar Munir" }],
+  openGraph: {
+    title: "Anharhehe | Full Stack & AI Engineer",
+    description: "Final year Software Engineering student at FAST NUCES. Building AI-powered systems and full stack web apps.",
+    url: "https://anharhehe.site",
+    siteName: "Anhar Munir Portfolio",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Anhar Munir | Full Stack & AI Engineer",
+    description: "Final year Software Engineering student at FAST NUCES.",
+  },
+  metadataBase: new URL("https://anharhehe.site"),
 };
 
 export default function RootLayout({
