@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Page";
 import Footer from "@/components/Footer/Page";
+import FloatingButtons from "@/components/FloatingButtons/FloatingButtons";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -29,6 +30,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <FloatingButtons />
       </body>
     </html>
   );
