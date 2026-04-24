@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header/Page";
 import Footer from "@/components/Footer/Page";
 import FloatingButtons from "@/components/FloatingButtons/FloatingButtons";
+import Chatbot from "@/components/Chatbot/page";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -46,6 +47,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <FloatingButtons />
+        <Chatbot />
       </body>
     </html>
   );
