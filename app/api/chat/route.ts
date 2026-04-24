@@ -2,8 +2,6 @@ import { NextRequest, NextResponse } from 'next/server';
 import Groq from 'groq-sdk';
 import { knowledge } from '@/src/data/knowledge';
 
-const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
-
 interface Message {
   role: 'user' | 'assistant';
   content: string;
@@ -21,6 +19,8 @@ export async function POST(req: NextRequest) {
   if (!process.env.GROQ_API_KEY) {
     return NextResponse.json({ error: 'API key not configured' }, { status: 500 });
   }
+
+  const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
   const response = await groq.chat.completions.create({
     model: 'llama-3.3-70b-versatile',
