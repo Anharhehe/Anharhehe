@@ -28,9 +28,9 @@ export const PROJECTS: Project[] = [
       'AI-powered smart glasses system enabling real-time object detection, currency recognition, GPS navigation, and voice control for visually impaired users on edge hardware.',
     tech: ['YOLOv8', 'TFLite INT8', 'Raspberry Pi 4B', 'Vosk STT', 'pyttsx3', 'Tesseract OCR', 'OpenCV', 'GPS'],
     categories: ['AI/ML'],
-    images: ['/a1.png', '/a2.png', '/a3.png', '/a4.png', '/a5.png'],
+    images: ['/a1.png', '/a2.png', '/a3.png', '/a4.png', '/a5.png', '/a6.png', '/a7.png', '/a8.png', '/a9.png', '/a10.png', '/a11.png', '/a12.png', '/a13.png', '/a14.png', '/a15.png', '/a16.png', '/a17.png', '/a18.png', '/a19.png', '/a20.png', '/a21.png', '/a22.png', '/a23.png', '/a24.png', '/a25.png', '/a26.png', '/a27.png', '/a28.png', '/a29.png', '/a30.png', '/a31.png', '/a32.png', '/a33.png', '/a34.png', '/a35.png', '/a36.png', '/a37.png', '/a38.png', '/a39.png', '/a40.png'],
     github: 'https://github.com/Anharhehe/Sight-Wise',
-    youtubeUrl: 'https://youtu.be/gSJpto6EmAo',
+    youtubeUrl: 'https://youtu.be/T-dDCZWPcII',
     featured: true,
     status: 'In Progress',
     bullets: [
