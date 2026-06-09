@@ -114,9 +114,9 @@ const Header = () => {
         <a
           href="#home"
           onClick={(e) => handleNavClick(e, '#home', 'Home')}
-          className="text-3xl font-bold text-white tracking-tight px-4 py-2 rounded-lg border border-white/10 bg-white/5 hover:bg-white/10 transition-colors duration-200"
+          className="text-3xl font-bold text-white tracking-tight px-4 py-2 rounded-lg border border-white/10  transition-colors duration-200"
         >
-          Anhar Munir<span className="text-blue-400"></span>
+          Anhar <span className="text-blue-400">Munir </span>
         </a>
 
         {/* Desktop Nav */}
